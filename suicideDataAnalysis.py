@@ -1,6 +1,9 @@
 # suicide_dashboard.py
 
 import streamlit as st
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
 
 # Set page title
 st.set_page_config(page_title="Suicide Rate Analysis Dashboard", layout="centered")
