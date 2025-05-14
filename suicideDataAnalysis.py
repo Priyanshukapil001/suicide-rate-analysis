@@ -2,7 +2,6 @@
 
 import streamlit as st
 import pandas as pd
-import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Set page title
@@ -65,8 +64,4 @@ else :
     st.pyplot(fig2.figure)
     plt.clf()
 
-# Visualization 3: GDP vs Suicide Rate
-# st.subheader("GDP vs Suicide Rate")
-# fig3 = sns.scatterplot(data=filtered_df, x='GDP', y='suicides_no', hue='sex')
-# st.pyplot(fig3.figure)
-# plt.clf()
+
